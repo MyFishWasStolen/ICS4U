@@ -1,6 +1,13 @@
+//Programer: Mathew Sinoj
+//Description: Program will calculate empolyee payroll
+//Date Created: January 29 2026
+//Date Revised: Febuary 9 2026
+
 //import packages
 import java.text.NumberFormat;
 import java.util.Scanner;
+import java.lang.Double;
+import java.lang.String;
 
 public class PayrollSin
 {
@@ -105,10 +112,10 @@ public class PayrollSin
 
         //print totals and averages for payroll and which employee has the highest horus and what braket empolyees are in
 
-        System.out.println("Total Gross Earnings: $" + totalGrossIncome);
-        System.out.println("Total Deductions: $" + totalDeductions);
-        System.out.println("Total Net: $" + totalNet);
-        System.out.println("Average gross: $" + averageGross);
+        System.out.println("Total Gross Earnings: " + currency.format(totalGrossIncome));
+        System.out.println("Total Deductions: " + currency.format(totalDeductions));
+        System.out.println("Total Net: " + currency.format(totalNet));
+        System.out.println("Average gross: " + currency.format(averageGross));
         System.out.println("Average hours: " + averageHours);
         System.out.println("Employee with the most hours:" + employee[mostHours][0]);
         System.out.println("Empolyees in upper bracket: " + upper);
@@ -119,10 +126,10 @@ public class PayrollSin
 
     }
 
-    //method that calulate tax based on tax bracket
+    //method that calulates tax based on tax bracket
     private static double tax(double grossIncome)
     {
-        double tax = 0;//initalize varaible
+        double tax = 0;//initalize variable
 
         //lower tax braket if income less than 575
         if(grossIncome<=575)
