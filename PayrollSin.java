@@ -7,7 +7,7 @@
 import java.text.NumberFormat;
 import java.util.Scanner;
 import java.lang.Double;
-import java.lang.String;
+import java.lang.String;  
 
 public class PayrollSin
 {
@@ -127,8 +127,15 @@ public class PayrollSin
     }
 
     //method that calulates tax based on tax bracket
+
+    /*pre: none
+     * post: returns deductions based of tax brackets
+     */
     private static double tax(double grossIncome)
     {
+        //method that calulates tax based on tax bracket
+
+
         double tax = 0;//initalize variable
 
         //lower tax braket if income less than 575
