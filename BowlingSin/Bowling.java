@@ -69,7 +69,7 @@ public class Bowling
             System.out.println(bowlers[i].getName() + ":" + bowlers[i].getScore());
         }
 
-        //close input
+        //close scanner object
         input.close();
 
     }
