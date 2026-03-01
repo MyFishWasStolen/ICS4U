@@ -2,7 +2,7 @@ package BowlingSin;
 
 public class Bowler
 {
-    private String name;
+    private final String name;
     private int totalScore;
 
     public Bowler(String n)

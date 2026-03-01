@@ -1,14 +1,14 @@
 package BowlingSin;
 
-import java.util.Random;
+import java.util.Random;//import random package
 public class Frame
 {
-    Random rand;
+    private final Random rand;//create final variable to store random object
 
     public Frame()
     {
 
-        rand = new Random();
+        rand = new Random();//initialize final vriable with random object
 
     }
 
