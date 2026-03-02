@@ -8,7 +8,7 @@ public class Frame
     public Frame()
     {
 
-        rand = new Random();//initialize final vriable with random object
+        rand = new Random();//initialize final variable with random object
 
     }
 
