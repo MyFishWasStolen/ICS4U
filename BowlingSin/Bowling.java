@@ -1,4 +1,4 @@
-package BowlingSin;
+
 //Programmer: Mathew Sinoj
 //Description: Simple program to calculate the score of a bowling game
 //Date Created: Feb 24 2026
