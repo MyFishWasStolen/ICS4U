@@ -1,4 +1,4 @@
-package BowlingSin;
+
 
 import java.util.Random;//import random package
 public class Frame
