@@ -13,7 +13,7 @@ public class SalesCenterApp {
     
     
         String choice = "";
-        int empNum;
+        int empNum = 0;
         Scanner input = new Scanner(System.in);
 
         while (choice != "Q") 
