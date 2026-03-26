@@ -11,36 +11,42 @@ public class SalesCenterApp {
     public static void main(String[] args) {
         
     
-    
-        String choice = "";
+        SalesCenter sc = new SalesCenter();
+        String choice =null;
         int empNum = 0;
         Scanner input = new Scanner(System.in);
 
-        while (choice != "Q") 
+        do
         {
             System.out.println("Employee/Pay/Quit");
             System.out.print("Enter Choice: ");
             choice = input.nextLine();
-            
-            if (choice.equals("E")) 
-            {
-                System.out.print("Enter employee number(1,2 or 3)");
-                empNum = input.nextInt();
+
+            switch (choice) {
+                case "E","P":
+                    System.out.print("Enter employee number(1,2 or 3)");
+
+                    empNum = input.nextInt();
+
+
+
+                    break;
+
+
+                case ("Q"):
+                    break;
+                default:
+                    System.out.println("Invalid Choice");
+                    break;
             }
 
-            else if (choice.equals("P"))
-            {
-                System.out.print("Enter employee number(1,2 or 3)");
-                empNum = input.nextInt();
-            }
 
-            else
-            {
-                break;
-            }
+
+
         
-        }
+        }while (choice !=("Q"));
 
+        input.close();
     }
     
 }
