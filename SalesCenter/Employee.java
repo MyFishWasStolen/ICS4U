@@ -1,10 +1,10 @@
 package SalesCenter;
 
-public class Employee 
+public abstract class Employee
 {
 
  private String name;
- private double title;
+ private String title;
 
  public Employee(String n, String t)
  {
@@ -16,7 +16,13 @@ public class Employee
 
  public String getInfo()
  {
- 
+
+     return name + ", " + title;
+
  }
+
+ public abstract double calculateSalary(double payPeriod);
+
+
 
 }
