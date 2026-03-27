@@ -27,7 +27,7 @@ public class SalesCenterApp {
                     System.out.print("Enter employee number(1,2 or 3)");
 
                     empNum = input.nextInt();
-
+                    
 
 
                     break;
