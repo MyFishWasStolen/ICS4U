@@ -1,0 +1,119 @@
+SPIN RESULTS - Spin & Win (100 Trials)
+
+Spin #,Outcome Number (1-5),Outcome Name,Prize ($),Cost ($),Net (Player)
+1,1,Miss,0,2,-2
+2,1,Miss,0,2,-2
+3,5,Jackpot,10,2,8
+4,1,Miss,0,2,-2
+5,1,Miss,0,2,-2
+6,2,Bronze,1,2,-1
+7,3,Silver,3,2,1
+8,1,Miss,0,2,-2
+9,1,Miss,0,2,-2
+10,2,Bronze,1,2,-1
+11,1,Miss,0,2,-2
+12,1,Miss,0,2,-2
+13,2,Bronze,1,2,-1
+14,1,Miss,0,2,-2
+15,1,Miss,0,2,-2
+16,1,Miss,0,2,-2
+17,2,Bronze,1,2,-1
+18,1,Miss,0,2,-2
+19,4,Gold,5,2,3
+20,1,Miss,0,2,-2
+21,1,Miss,0,2,-2
+22,2,Bronze,1,2,-1
+23,2,Bronze,1,2,-1
+24,4,Gold,5,2,3
+25,1,Miss,0,2,-2
+26,1,Miss,0,2,-2
+27,1,Miss,0,2,-2
+28,1,Miss,0,2,-2
+29,1,Miss,0,2,-2
+30,2,Bronze,1,2,-1
+31,2,Bronze,1,2,-1
+32,2,Bronze,1,2,-1
+33,1,Miss,0,2,-2
+34,2,Bronze,1,2,-1
+35,5,Jackpot,10,2,8
+36,4,Gold,5,2,3
+37,1,Miss,0,2,-2
+38,3,Silver,3,2,1
+39,2,Bronze,1,2,-1
+40,2,Bronze,1,2,-1
+41,1,Miss,0,2,-2
+42,2,Bronze,1,2,-1
+43,1,Miss,0,2,-2
+44,1,Miss,0,2,-2
+45,2,Bronze,1,2,-1
+46,2,Bronze,1,2,-1
+47,4,Gold,5,2,3
+48,3,Silver,3,2,1
+49,3,Silver,3,2,1
+50,3,Silver,3,2,1
+51,2,Bronze,1,2,-1
+52,1,Miss,0,2,-2
+53,1,Miss,0,2,-2
+54,2,Bronze,1,2,-1
+55,4,Gold,5,2,3
+56,2,Bronze,1,2,-1
+57,2,Bronze,1,2,-1
+58,4,Gold,5,2,3
+59,2,Bronze,1,2,-1
+60,2,Bronze,1,2,-1
+61,2,Bronze,1,2,-1
+62,2,Bronze,1,2,-1
+63,1,Miss,0,2,-2
+64,3,Silver,3,2,1
+65,1,Miss,0,2,-2
+66,3,Silver,3,2,1
+67,3,Silver,3,2,1
+68,1,Miss,0,2,-2
+69,3,Silver,3,2,1
+70,1,Miss,0,2,-2
+71,2,Bronze,1,2,-1
+72,1,Miss,0,2,-2
+73,1,Miss,0,2,-2
+74,1,Miss,0,2,-2
+75,2,Bronze,1,2,-1
+76,4,Gold,5,2,3
+77,1,Miss,0,2,-2
+78,1,Miss,0,2,-2
+79,2,Bronze,1,2,-1
+80,1,Miss,0,2,-2
+81,2,Bronze,1,2,-1
+82,1,Miss,0,2,-2
+83,1,Miss,0,2,-2
+84,5,Jackpot,10,2,8
+85,3,Silver,3,2,1
+86,1,Miss,0,2,-2
+87,1,Miss,0,2,-2
+88,2,Bronze,1,2,-1
+89,1,Miss,0,2,-2
+90,1,Miss,0,2,-2
+91,3,Silver,3,2,1
+92,2,Bronze,1,2,-1
+93,2,Bronze,1,2,-1
+94,1,Miss,0,2,-2
+95,3,Silver,3,2,1
+96,2,Bronze,1,2,-1
+97,2,Bronze,1,2,-1
+98,1,Miss,0,2,-2
+99,2,Bronze,1,2,-1
+100,1,Miss,0,2,-2
+
+--- FREQUENCY SUMMARY ---
+Outcome Number,Outcome Name,Prize ($),Frequency,Exp. Probability,Theoretical Probability,x * P(x)
+1,Miss,0,45,0.4500,0.40,0.0000
+2,Bronze,1,33,0.3300,0.30,0.3300
+3,Silver,3,12,0.1200,0.18,0.3600
+4,Gold,5,7,0.0700,0.09,0.3500
+5,Jackpot,10,3,0.0300,0.03,0.3000
+
+--- EXPECTED VALUE & PROFITABILITY ---
+Experimental E(X) (avg prize per play),1.3400
+Theoretical E(X),1.5900
+Cost per Play,$2.00
+Total Revenue,$200.00
+Total Prizes Paid,$134.00
+Net Profit,$66.00
