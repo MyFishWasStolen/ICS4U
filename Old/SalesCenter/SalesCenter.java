@@ -1,4 +1,4 @@
-package SalesCenter;
+package Old.SalesCenter;
 import java.text.NumberFormat;
 
 // Manages a collection of employees and provides methods to retrieve their info and pay

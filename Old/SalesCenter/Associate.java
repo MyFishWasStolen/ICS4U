@@ -1,4 +1,4 @@
-package SalesCenter;
+package Old.SalesCenter;
 
 // Represents an hourly associate; extends Employee with hourly wage-based pay
 public class Associate extends Employee
@@ -17,6 +17,7 @@ public class Associate extends Employee
     // Calculates pay for a given number of hours worked
     // Multiplies hourly wage by total hours worked
     @Override
+
     public double calculateSalary(double hours)
     {
 

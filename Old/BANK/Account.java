@@ -1,11 +1,10 @@
-package BANK;
-
 import java.text.NumberFormat;
 
-public class Account 
+public class Account
+
 {
 
-    private double balance;
+	private double balance;
 	private Customer cust;
 	
 	//Constructor
@@ -85,6 +84,5 @@ public class Account
 		accountString = cust.toString();
 		accountString += "Current balance is " + money.format(balance);
 		return(accountString);
-    }    
-
+	}
 }

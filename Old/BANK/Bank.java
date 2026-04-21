@@ -1,5 +1,3 @@
-package BANK;
-
 import java.util.Scanner;
 import java.text.NumberFormat;
 
@@ -30,7 +28,6 @@ public class Bank
 		munozAccount.withdrawal(data);
 		System.out.println("Balance is: " + money.format(munozAccount.getBalance()));
 		
-		input.close();
 	}
 	
 }

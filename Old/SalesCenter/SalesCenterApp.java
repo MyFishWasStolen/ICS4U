@@ -3,7 +3,7 @@
 //Date Created: March 23, 2026
 //Date Revised: March 25, 2026
 
-package SalesCenter;
+package Old.SalesCenter;
 import java.util.Scanner;
 
 public class SalesCenterApp {

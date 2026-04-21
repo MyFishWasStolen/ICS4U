@@ -1,5 +1,3 @@
-package BANK;
-
 public class Customer
 
 {
@@ -40,4 +38,5 @@ public class Customer
 		return(custString);
 		
 	}
-}	
+	
+}

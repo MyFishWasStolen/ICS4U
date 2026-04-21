@@ -1,4 +1,4 @@
-package SalesCenter;
+package Old.SalesCenter;
 
 // Represents a salaried manager; extends Employee with annual salary-based pay
 public class Manager extends Employee

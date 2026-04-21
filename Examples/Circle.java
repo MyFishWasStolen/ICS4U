@@ -1,14 +1,15 @@
-public class Circle 
+public class Circle
+
 {
 
-    private static final double PI = 3.14;
+   private static final double PI = 3.14;
    private double radius;
    
-   public Circle(double r)
+   public Circle()
    
    {
    
-      radius = r;
+      radius = 1;
    
    }
    
@@ -37,5 +38,5 @@ public class Circle
       return(radius);
    
    }
-
+   
 }

@@ -1,4 +1,4 @@
-package SalesCenter;
+package Old.SalesCenter;
 
 // Abstract base class representing a generic employee in the sales center
 public abstract class Employee
@@ -20,7 +20,8 @@ public abstract class Employee
  public String getInfo()
  {
 
-     return name + ", " + title;
+     return name + "" +
+             ", " + title;
 
  }
 
