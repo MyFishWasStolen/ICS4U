@@ -104,8 +104,6 @@ public class PhotoAlbum implements ActionListener
     /**
      * Scans the given folder path for JPG and PNG images and stores their
      * absolute paths in the image list. Creates the folder if it doesn't exist.
-     *
-     * @param path relative or absolute path to the image folder
      */
     private void loadImageFromFolder(String path)
     {
