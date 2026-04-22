@@ -149,10 +149,7 @@ public class PhotoAlbum implements ActionListener
         label.setIcon(new ImageIcon(scaledImage));
     }
 
-    /**
-     * Applies the system look-and-feel decoration and launches the album.
-     * Called on the Event Dispatch Thread via SwingUtilities.
-     */
+    // sets the window deceration and the gui system
     private static void runGUI()
     {
         JFrame.setDefaultLookAndFeelDecorated(true);
