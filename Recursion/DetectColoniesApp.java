@@ -17,14 +17,13 @@ public class DetectColoniesApp
     //main method to run program
     public static void main(String[] args)
     {
-        // Load the slide data.
-        // Create an instance of SlideLoader with the specified dimensions.
+        // Load the slide data
         SlideLoader loader = new SlideLoader(SLIDE_ROWS, SLIDE_COLS);
 
-        // Load the slide data from the file.
+        // Load the slide data from the file
         int[][] slideData = loader.loadSlide(SLIDE_FILENAME);
 
-        // Check if the slide data was loaded successfully.
+        // Check if the slide data was loaded successfully
         if (slideData == null)
         {
             System.out.println("Application terminated due to slide loading error.");
@@ -33,7 +32,6 @@ public class DetectColoniesApp
         }
 
         // Analyze and report colonies
-        // Create an instance of ColonyAnalyzer with the loaded slide data and its dimensions
         ColonyAnalyzer analyzer = new ColonyAnalyzer(slideData, SLIDE_ROWS, SLIDE_COLS);
 
         // Call the reportColonies method to find and print all colonies

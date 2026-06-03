@@ -9,7 +9,7 @@ import java.util.Scanner;
 //import and convert text file into 2d array
 public class SlideLoader
 {
-    // store the dimensions of the slide.
+    // store the dimensions of the slide
     private int rows;
     private int cols;
 
@@ -26,7 +26,7 @@ public class SlideLoader
     public int[][] loadSlide(String filename)
     {
 
-        // Initialize the 2D array to store the slide data.
+        // Initialize the 2D array to store the slide data
         int[][] slide = new int[rows][cols];
 
         try
@@ -60,7 +60,7 @@ public class SlideLoader
             // Close the scanner
             fileInput.close();
 
-            // Return the populated slide array.
+            // Return the populated slide array
             return slide;
 
         }
@@ -68,7 +68,7 @@ public class SlideLoader
         catch (FileNotFoundException e)
         {
 
-            // Handle the case where the specified file does not exist.
+            // Handle the case where the specified file does not exist
             System.out.println("File not found: " + filename);
             return null; // Return null to show loading failed
 
@@ -77,7 +77,7 @@ public class SlideLoader
         catch (NumberFormatException e)
         {
 
-            // Handle the case where the file contains non-digit characters that cannot be converted.
+            // Handle the case where the file contains non-digit characters that cannot be converted
             System.out.println("File contains invalid characters");
             return null; // Return null to show loading failed
 
